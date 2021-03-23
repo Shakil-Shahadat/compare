@@ -5,6 +5,27 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<title>Compare Strings</title>
 	<link rel="shortcut icon" href="icon.ico">
+	<style>
+		.container
+		{
+			width: 960px;
+			margin: auto;
+			padding-top: 80px;
+		}
+		input
+		{
+			font-size: 22px;
+			padding: 9px;
+			margin: 10px;
+		}
+		button
+		{
+			float: right;
+			position: relative;
+			right: 110px;
+			top: 10px;
+		}
+	</style>
 </head>
 <body>
 
