@@ -8,5 +8,11 @@
 </head>
 <body>
 
+<div class="container">
+	<input type="text" class="text1" size="70" autofocus><br>
+	<input type="text" class="text2" size="70" oninput="compare()"><br>
+	<button onclick="empty()">Clear</button>
+</div>
+
 </body>
 </html>
