@@ -32,6 +32,14 @@
 			qs( '.text2' ).style.background = 'tomato';
 		}
 	}
+	function empty()
+	{
+		qs( '.text1' ).value = '';
+		qs( '.text2' ).value = '';
+		qs( '.text1' ).style.background = 'white';
+		qs( '.text2' ).style.background = 'white';
+		qs( '.text1' ).focus();
+	}
 </script>
 </body>
 </html>
