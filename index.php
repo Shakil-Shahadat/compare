@@ -19,6 +19,19 @@
 	{
 		return document.querySelector( cls );
 	}
+	function compare()
+	{
+		if ( qs( '.text1' ).value === qs( '.text2' ).value )
+		{
+			qs( '.text1' ).style.background = 'cyan';
+			qs( '.text2' ).style.background = 'cyan';
+		}
+		else
+		{
+			qs( '.text1' ).style.background = 'tomato';
+			qs( '.text2' ).style.background = 'tomato';
+		}
+	}
 </script>
 </body>
 </html>
