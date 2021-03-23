@@ -14,5 +14,11 @@
 	<button onclick="empty()">Clear</button>
 </div>
 
+<script>
+	function qs( cls )
+	{
+		return document.querySelector( cls );
+	}
+</script>
 </body>
 </html>
