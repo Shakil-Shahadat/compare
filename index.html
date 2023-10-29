@@ -67,6 +67,11 @@
 		qs( '.text2' ).style.background = 'white';
 		qs( '.text1' ).focus();
 	}
+
+	function replaceThis( data )
+	{
+		qs( '.text1' ).value = qs( '.text1' ).value.replaceAll( data, ' ' );
+	}
 </script>
 </body>
 </html>
