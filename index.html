@@ -76,6 +76,11 @@
 	{
 		qs( '.text1' ).value = qs( '.text1' ).value.replaceAll( data, ' ' );
 	}
+
+	function copyThis()
+	{
+		navigator.clipboard.writeText( document.querySelector( '.text1' ).value );
+	}
 </script>
 </body>
 </html>
