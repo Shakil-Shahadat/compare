@@ -90,6 +90,11 @@
 		qs( '.text1' ).value = qs( '.text1' ).value.replaceAll( data, ' ' );
 	}
 
+	function removeThis( data )
+	{
+		qs( '.text1' ).value = qs( '.text1' ).value.replaceAll( data, '' );
+	}
+
 	function copyThis()
 	{
 		navigator.clipboard.writeText( qs( '.text1' ).value );
