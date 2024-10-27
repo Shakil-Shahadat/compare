@@ -1,3 +1,3 @@
 # Compare Strings
 
-A small web app to compare two strings. Check it out [here](https://shakil-shahadat.github.io/compare/).
+A web app to compare two strings and do some text manipulation. Check it out [here](https://shakil-shahadat.github.io/compare/).
