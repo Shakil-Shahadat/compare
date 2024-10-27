@@ -66,6 +66,14 @@
 		navigator.clipboard.writeText( qs( cls ).value );
 	}
 
+	function cutThis( cls )
+	{
+		navigator.clipboard.writeText( qs( cls ).value );
+		qs( cls ).value = '';
+		qs( cls ).style.background = 'white';
+		qs( cls ).focus();
+	}
+
 	function empty( cls )
 	{
 		qs( cls ).value = '';
