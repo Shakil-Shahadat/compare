@@ -33,7 +33,7 @@
 
 		<button onclick="copyThis()">Copy</button>&nbsp;
 
-		<button onclick="empty()">Clear</button>
+		<button onclick="empty( '.text1' )">Clear</button>
 
 		Replace
 		<button onclick="replaceThis( '.' )">.</button> /
@@ -73,13 +73,11 @@
 		}
 	}
 
-	function empty()
+	function empty( cls )
 	{
-		qs( '.text1' ).value = '';
-		qs( '.text2' ).value = '';
-		qs( '.text1' ).style.background = 'white';
-		qs( '.text2' ).style.background = 'white';
-		qs( '.text1' ).focus();
+		qs( cls ).value = '';
+		qs( cls ).style.background = 'white';
+		qs( cls ).focus();
 	}
 
 	function replaceThis( data )
