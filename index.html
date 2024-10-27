@@ -112,6 +112,12 @@
 
 	function compare()
 	{
+		// Don't compare if one of the textareas is empty
+		if ( qs( '.text1' ).value === '' || qs( '.text2' ).value === '' )
+		{
+			return;
+		}
+
 		if ( qs( '.text1' ).value === qs( '.text2' ).value )
 		{
 			qs( '.text1' ).style.background = 'cyan';
