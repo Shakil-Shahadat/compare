@@ -30,6 +30,11 @@
 	<textarea class="text1" rows="4" cols="75" autofocus></textarea><br><br>
 
 	<div>
+
+		<button onclick="copyThis()">Copy</button>&nbsp;
+
+		<button onclick="empty()">Clear</button>
+
 		Replace
 		<button onclick="replaceThis( '.' )">.</button> /
 		<button onclick="replaceThis( '_' )">_</button> /
@@ -38,13 +43,8 @@
 		<button onclick="removeThis( '.' )">.</button> /
 		<button onclick="removeThis( '_' )">_</button> /
 		<button onclick="removeThis( '-' )">-</button>
-	</div>
 
-	<br>
-
-	<button onclick="empty()">Clear</button>&nbsp;
-
-	<button onclick="copyThis()">Copy</button><br><br>
+	</div><br>
 
 	<textarea class="text2" rows="4" cols="75" oninput="compare()"></textarea><br><br>
 
