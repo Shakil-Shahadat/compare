@@ -31,7 +31,7 @@
 
 	<div>
 
-		<button onclick="copyThis()">Copy</button>&nbsp;
+		<button onclick="copyThis( '.text1' )">Copy</button>&nbsp;
 
 		<button onclick="empty( '.text1' )">Clear</button>
 
@@ -90,9 +90,9 @@
 		qs( '.text1' ).value = qs( '.text1' ).value.replaceAll( data, '' );
 	}
 
-	function copyThis()
+	function copyThis( cls )
 	{
-		navigator.clipboard.writeText( qs( '.text1' ).value );
+		navigator.clipboard.writeText( qs( cls ).value );
 	}
 
 </script>
