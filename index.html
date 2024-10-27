@@ -81,14 +81,14 @@
 		qs( cls ).focus();
 	}
 
-	function replaceThis( data )
+	function replaceThis( cls, data )
 	{
-		qs( '.text1' ).value = qs( '.text1' ).value.replaceAll( data, ' ' );
+		qs( cls ).value = qs( cls ).value.replaceAll( data, ' ' );
 	}
 
-	function removeThis( data )
+	function removeThis( cls, data )
 	{
-		qs( '.text1' ).value = qs( '.text1' ).value.replaceAll( data, '' );
+		qs( cls ).value = qs( cls ).value.replaceAll( data, '' );
 	}
 
 	function compare()
