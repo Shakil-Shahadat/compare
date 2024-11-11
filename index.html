@@ -88,6 +88,11 @@
 		return document.querySelector( cls );
 	}
 
+	async function pasteMe( cls )
+	{
+		qs( cls ).value = await navigator.clipboard.readText();
+	}
+
 	function copyThis( cls )
 	{
 		navigator.clipboard.writeText( qs( cls ).value );
