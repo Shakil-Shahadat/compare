@@ -100,6 +100,7 @@
 	async function pasteMe( cls )
 	{
 		qs( cls ).value = await navigator.clipboard.readText();
+		qs( cls ).focus();
 	}
 
 	function copyThis( cls )
