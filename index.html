@@ -25,58 +25,60 @@
 
 <div class="container">
 
-	<div>
 	<div class="col-8 offset-2">
 
-		<button onclick="empty( '.text2' ); empty( '.text1' );">Clear Both</button>
+		<div>
 
-	</div><br>
+			<button onclick="empty( '.text2' ); empty( '.text1' );">Clear Both</button>
 
+		</div><br>
 
-	<div>
 		<textarea class="text1" rows="4" cols="80" oninput="compare()" autofocus></textarea><br><br>
 
-		<button onclick="pasteMe( '.text1' )">Paste</button>&nbsp;
+		<div>
 
-		<button onclick="copyThis( '.text1' )">Copy</button>&nbsp;
+			<button onclick="pasteMe( '.text1' )">Paste</button>&nbsp;
 
-		<button onclick="cutThis( '.text1' )">Cut</button>&nbsp;
+			<button onclick="copyThis( '.text1' )">Copy</button>&nbsp;
 
-		<button onclick="empty( '.text1' )">Clear</button>
+			<button onclick="cutThis( '.text1' )">Cut</button>&nbsp;
 
-		Remove
-		<button onclick="removeThis( '.text1', '.' )">.</button> /
-		<button onclick="removeThis( '.text1', '_' )">_</button> /
-		<button onclick="removeThis( '.text1', '-' )">-</button>.
-		Replace
-		<button onclick="replaceThis( '.text1', '.' )">.</button> /
-		<button onclick="replaceThis( '.text1', '_' )">_</button> /
-		<button onclick="replaceThis( '.text1', '-' )">-</button>
-		with Space.
+			<button onclick="empty( '.text1' )">Clear</button>
 
-	</div><br>
+			Remove
+			<button onclick="removeThis( '.text1', '.' )">.</button> /
+			<button onclick="removeThis( '.text1', '_' )">_</button> /
+			<button onclick="removeThis( '.text1', '-' )">-</button>.
+			Replace
+			<button onclick="replaceThis( '.text1', '.' )">.</button> /
+			<button onclick="replaceThis( '.text1', '_' )">_</button> /
+			<button onclick="replaceThis( '.text1', '-' )">-</button>
+			with Space.
 
-	<textarea class="text2" rows="4" cols="75" oninput="compare()"></textarea><br><br>
+		</div><br>
 
-	<div>
+		<textarea class="text2" rows="4" cols="75" oninput="compare()"></textarea><br><br>
 
-		<button onclick="pasteMe( '.text2' )">Paste</button>&nbsp;
+		<div>
 
-		<button onclick="copyThis( '.text2' )">Copy</button>&nbsp;
+			<button onclick="pasteMe( '.text2' )">Paste</button>&nbsp;
 
-		<button onclick="cutThis( '.text2' )">Cut</button>&nbsp;
+			<button onclick="copyThis( '.text2' )">Copy</button>&nbsp;
 
-		<button onclick="empty( '.text2' )">Clear</button>
+			<button onclick="cutThis( '.text2' )">Cut</button>&nbsp;
 
-		Remove
-		<button onclick="removeThis( '.text2', '.' )">.</button> /
-		<button onclick="removeThis( '.text2', '_' )">_</button> /
-		<button onclick="removeThis( '.text2', '-' )">-</button>.
-		Replace
-		<button onclick="replaceThis( '.text2', '.' )">.</button> /
-		<button onclick="replaceThis( '.text2', '_' )">_</button> /
-		<button onclick="replaceThis( '.text2', '-' )">-</button>
-		with Space.
+			<button onclick="empty( '.text2' )">Clear</button>
+
+			Remove
+			<button onclick="removeThis( '.text2', '.' )">.</button> /
+			<button onclick="removeThis( '.text2', '_' )">_</button> /
+			<button onclick="removeThis( '.text2', '-' )">-</button>.
+			Replace
+			<button onclick="replaceThis( '.text2', '.' )">.</button> /
+			<button onclick="replaceThis( '.text2', '_' )">_</button> /
+			<button onclick="replaceThis( '.text2', '-' )">-</button>
+			with Space.
+
 		</div>
 
 	</div>
